@@ -1,0 +1,14 @@
+html, body{
+    background-color: black;
+    height: 100%; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.container{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
