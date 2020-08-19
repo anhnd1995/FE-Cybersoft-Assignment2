@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html, body{
     background-color: black;
     height: 100%; 
@@ -10,16 +14,18 @@ html, body{
     background-color: white;
     width: 80%;
     /* height: 100%; */
-    margin: auto;
+    margin: 0 auto;
 }
 
-#vus-logo{
+#header__logo{
     margin-left: 10px;
+    width: 30%;
 }
 
-#vus-slogan{
+#header__slogan{
     float: right;
-    margin-right: 120px;
+    margin-right: 10%;
+    width: 25%;
 }
 
 .navmenu{
@@ -45,15 +51,23 @@ html, body{
 }
 
 #carousel__img{
-    margin-left: 5px;
+    max-width: 99%;
+    max-height: auto;
+    margin-left: 0.5%;
+    margin-right: auto;
 }
 
 .title{
     text-align: center;
 }
 
-#inrtroduction__paragraph{ 
-    width: 1020px;
-    margin: auto;
+#inrtroduction__paragraph{
+    /* use max-width for text responsive  */
+    max-width: 1020px;
+    margin: 0 auto; 
     line-height: 1.5;
+}
+
+#line{
+    width: 60%;
 }
