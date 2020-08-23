@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body{
@@ -7,12 +8,16 @@ html, body{
     height: 100%; 
     margin-bottom: 0px;
     margin-top: 0px;
+    font-size: 14px;
+}
 
+.clear{
+    clear: both;
 }
 
 .container{
     background-color: white;
-    width: 80%;
+    width: 80vw;
     /* height: 100%; */
     margin: 0 auto;
 }
@@ -25,7 +30,7 @@ html, body{
 #header__slogan{
     float: right;
     margin-right: 10%;
-    width: 25%;
+    width: 23%;
 }
 
 .navmenu{
@@ -35,10 +40,10 @@ html, body{
 .navmenu li{
     display: inline-block;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 1em;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 4px 0 0;
+    
+    margin-right: 13px;
     color: gray;
 }
 
@@ -51,7 +56,7 @@ html, body{
 }
 
 #carousel__img{
-    max-width: 99%;
+    width: 99%;
     max-height: auto;
     margin-left: 0.5%;
     margin-right: auto;
@@ -59,15 +64,99 @@ html, body{
 
 .title{
     text-align: center;
+    margin-top: 60px;
+}
+
+.title b{
+    font-size: 1.5em;
 }
 
 #inrtroduction__paragraph{
     /* use max-width for text responsive  */
-    max-width: 1020px;
+    max-width: 95%;
     margin: 0 auto; 
-    line-height: 1.5;
+    line-height: 2.0;
+    font-size: 1.13em;
 }
 
 #line{
     width: 60%;
+}
+
+/* PROGRAM */
+
+
+
+.program__content__item{
+    float: left;
+    width: 25%;
+    padding: 5px 10px 0
+}
+
+.program__content__img img{
+    width: 100%;
+    display: block;
+    padding-bottom: 16px;
+}
+
+.program__content__context{
+    text-align: left;
+}
+
+.program__content__context b{
+    color: #77282d;
+    font-size: 0.89em;
+}
+
+.program__content__context p {
+    font-weight: 600;
+    font-size: 0.76em;
+}
+
+/* NEWS */
+
+.news__left, .news__right, .news__right__top__item, .news__right__bot__item{
+    float: left;
+    width: 48%;
+    position: relative;
+    padding: 1px 0px 1px;
+    left: 2.5%;
+
+}
+
+.news__left img, .news__right img{
+    width: 100%;
+    display: block;
+}
+
+.news__left__text, .news__right__text{
+    position: absolute;
+    width: 100%;
+    bottom: 1px;
+    font-size: 0.9vw;
+    font-weight: 600;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding-left: 5px;    
+    /* border-bottom: 3px solid brown; */
+}
+
+.news__left__text{
+    font-size: 1.2vw;
+    width: 98%;
+}
+
+.news__left, .news__right__top__item , .news__right__bot__item{
+    border-bottom: 3px solid brown;
+
+}
+
+.news__right__bot__item{
+    top: 0.9vh
+}
+
+.news__right .right
+{
+    left: 5.5%
 }
